@@ -32,7 +32,7 @@ exports.config = {
 	}, {
 		browserName: 'chrome',
 		platform: 'Windows 10',
-		version: 'latest -1',s,
+		version: 'latest -1',
 		extendedDebugging: true,
 		capturePerformance: true,
 	}],
