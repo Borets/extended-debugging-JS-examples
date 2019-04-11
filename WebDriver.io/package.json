@@ -17,6 +17,7 @@
     "@wdio/sauce-service": "^5.0.3",
     "@wdio/spec-reporter": "^5.2.3",
     "@wdio/sync": "^5.0.3",
+    "speedo": "^0.3.1",
     "webdriverio": "^5.0.3"
   },
   "eslintConfig": {
