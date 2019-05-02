@@ -10,31 +10,31 @@ exports.config = {
 		platform: 'macOS 10.12',
 		version: 'latest',
 		extendedDebugging: true,
-		capturePerformance: true,
+		capturePerformance: true
 	}, {
 		browserName: 'chrome',
 		platform: 'macOS 10.14',
 		version: 'latest',
 		extendedDebugging: true,
-		capturePerformance: true,
+		capturePerformance: true
 	}, {
 		browserName: 'chrome',
 		platform: 'macOS 10.14',
 		version: 'latest -1',
 		extendedDebugging: true,
-		capturePerformance: true,
+		capturePerformance: true
 	}, {
 		browserName: 'chrome',
 		platform: 'Windows 10',
 		version: 'latest',
 		extendedDebugging: true,
-		capturePerformance: true,
+		capturePerformance: true
 	}, {
 		browserName: 'chrome',
 		platform: 'Windows 10',
 		version: 'latest -1',
 		extendedDebugging: true,
-		capturePerformance: true,
+		capturePerformance: true
 	}],
 	sync: true,
 	logLevel: 'error',

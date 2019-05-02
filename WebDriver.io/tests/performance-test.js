@@ -1,9 +1,9 @@
 const assert = require('assert');
 
-describe('Sauce Performance Jenkins Demo', function () { // eslint-disable-line func-names
+describe('Sauce Performance UHG Demo', function () { // eslint-disable-line func-names
 	const { title } = this;
 	before(() => {
-		browser.url('https://www.uhone.com/');
+		browser.url('https://wwww.saucelabs.com/');
 	});
 
 	it('Get a quote', () => {
@@ -11,6 +11,7 @@ describe('Sauce Performance Jenkins Demo', function () { // eslint-disable-line 
 		zipcode.setValue('94109');
 		const loginButton = $('#inputZIPbtn');
 		loginButton.click();
+		browser.url('https://www.uhone.com/shop/#/census?zipcode=94109');
 	});
 	
 });
