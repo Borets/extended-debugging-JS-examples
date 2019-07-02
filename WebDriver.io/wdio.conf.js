@@ -11,30 +11,35 @@ exports.config = {
 		version: 'latest',
 		extendedDebugging: true,
 		capturePerformance: true,
+		crmuxdriverVersion: 'beta'
 	}, {
 		browserName: 'chrome',
 		platform: 'macOS 10.14',
 		version: 'latest',
 		extendedDebugging: true,
 		capturePerformance: true,
+		crmuxdriverVersion: 'beta'
 	}, {
 		browserName: 'chrome',
 		platform: 'macOS 10.14',
 		version: 'latest -1',
 		extendedDebugging: true,
 		capturePerformance: true,
+		crmuxdriverVersion: 'beta'
 	}, {
 		browserName: 'chrome',
 		platform: 'Windows 10',
 		version: 'latest',
 		extendedDebugging: true,
 		capturePerformance: true,
+		crmuxdriverVersion: 'beta'
 	}, {
 		browserName: 'chrome',
 		platform: 'Windows 10',
 		version: 'latest -1',
 		extendedDebugging: true,
 		capturePerformance: true,
+		crmuxdriverVersion: 'beta'
 	}],
 	sync: true,
 	logLevel: 'error',
